@@ -1,0 +1,82 @@
+[
+    {
+        "type": "PhysicalBook",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "price": 10.99,
+        "isbn": "978-0-316-76948-0",
+        "stock": 20,
+        "weight": "0.5 kg",
+        "dimensions": "5 x 8 inches"
+    },
+    {
+        "type": "PhysicalBook",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "price": 7.99,
+        "isbn": "978-0-06-112008-4",
+        "stock": 15,
+        "weight": "0.4 kg",
+        "dimensions": "4.2 x 7.5 inches"
+    },
+    {
+        "type": "eBook",
+        "title": "1984",
+        "author": "George Orwell",
+        "price": 6.99,
+        "isbn": "978-0-452-28423-4",
+        "stock": 50,
+        "file_size": "1.5 MB",
+        "format": "PDF"
+    },
+    {
+        "type": "eBook",
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "price": 8.99,
+        "isbn": "978-0-06-085052-4",
+        "stock": 40,
+        "file_size": "1.2 MB",
+        "format": "EPUB"
+    },
+    {
+        "type": "Audiobook",
+        "title": "Becoming",
+        "author": "Michelle Obama",
+        "price": 14.99,
+        "isbn": "978-1-5247-6313-8",
+        "stock": 30,
+        "duration": "19 hours 3 minutes",
+        "narrator": "Michelle Obama"
+    },
+    {
+        "type": "Audiobook",
+        "title": "Educated",
+        "author": "Tara Westover",
+        "price": 12.99,
+        "isbn": "978-0-525-56708-8",
+        "stock": 25,
+        "duration": "12 hours 10 minutes",
+        "narrator": "Julia Whelan"
+    },
+    {
+        "type": "PhysicalBook",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": 9.99,
+        "isbn": "978-0-7432-7356-5",
+        "stock": 10,
+        "weight": "0.3 kg",
+        "dimensions": "5.5 x 8.25 inches"
+    },
+    {
+        "type": "eBook",
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "price": 5.99,
+        "isbn": "978-0-307-38789-9",
+        "stock": 35,
+        "file_size": "0.8 MB",
+        "format": "MOBI"
+    }
+]
