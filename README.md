@@ -45,8 +45,8 @@ The **Book Order System** is a Python-based application designed to manage the o
 ### `GET /api/v1/search`
 - **Description**: Search for books by title or author name.
 - **Query Parameters**:
-  -title (optional): The title of the book to search for.
-  -author_name (optional): The author of the book to search for.
+  - title (optional): The title of the book to search for.
+  - author_name (optional): The author of the book to search for.
 - **Response**:
   - **200 OK**: Returns a JSON array of search results.
   - **500 Internal Server Error**: If an error occurs during the search.
