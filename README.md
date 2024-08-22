@@ -61,13 +61,13 @@ The **Book Order System** is a Python-based application designed to manage the o
 - **Description**: Add a new book to the bookstore.
 - **Request Body**:
   ```json
-{
-  "type": "string",  // e.g., "hardcover", "ebook", "audiobook"
-  "author": "string",
-  "title": "string",
-  "price": "number",
-  "weight": "number",       // Optional for physical books
-  "file_size": "number",    // Optional for ebooks
-  "duration": "number"      // Optional for audiobooks
-}
+  {
+    "type": "string",  // e.g., "hardcover", "ebook", "audiobook"
+    "author": "string",
+    "title": "string",
+    "price": "number",
+    "weight": "number",       // Optional for physical books
+    "file_size": "number",    // Optional for ebooks
+    "duration": "number"      // Optional for audiobooks
+  }  
   
