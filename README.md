@@ -62,12 +62,14 @@ The **Book Order System** is a Python-based application designed to manage the o
 - **Request Body**:
   ```json
   {
-    "type": "string",  // e.g., "hardcover", "ebook", "audiobook"
+    "type": "string",  
     "author": "string",
     "title": "string",
     "price": "number",
-    "weight": "number",       // Optional for physical books
-    "file_size": "number",    // Optional for ebooks
-    "duration": "number"      // Optional for audiobooks
+    "weight": "number",       
+    "file_size": "number",    
+    "duration": "number"      
   }  
-  
+- weight: The weight of the book, applicable for physical books (optional).
+- file_size: The file size of the book, applicable for ebooks (optional).
+- duration: The duration of the audiobook, applicable for audiobooks (optional).
